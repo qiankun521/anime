@@ -1,0 +1,13 @@
+.imageHover{
+    width: 10%;
+    border: 2px solid #f5d4d4;
+    border-radius: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.imageHoverContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
