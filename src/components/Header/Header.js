@@ -27,7 +27,7 @@ export default function Header(){
                 {data.map((item,index)=>{
                     return (
                         <section className="imageContainer">
-                            <img key={index} ref={index===indexImage?imageRef:null} className={"image "+(indexImage===index?"selected":"")} src={`https://cdn.jsdelivr.net/gh/qiankun521/anime@main/src/assets/images/${index+1}.jpg`} alt={item.title}/>
+                            <img key={index} ref={index===indexImage?imageRef:null} className={"image "+(indexImage===index?"selected":"")} src={`https://cdn.jsdelivr.net/gh/qiankun521/anime@main/src/assets/images/${index+1}_1.jpg`} alt={item.title}/>
                         </section>)
                         })}
             </header>

@@ -3,11 +3,12 @@
     display: flex;
     padding: 0;
     color: #ffffff;
-    width: 60%;
+    width: 100%;
     overflow: hidden;
 }
 .headerContainer{
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 /*ImageHover*/
@@ -43,8 +44,8 @@
  .imageContainer{
     display: flex;
     flex-direction: column;
-    min-width: 40vh;
-    height: 100%;
+    min-width: 50vw;
+    height: auto;
     align-items: center;
     justify-items: start;
 }
